@@ -46,6 +46,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
         <android.support.constraint.ConstraintLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
@@ -59,7 +64,7 @@
                 android:contentDescription="@string/profile_image"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/cap" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -70,7 +75,7 @@
                 android:layout_marginEnd="230dp"
                 android:layout_marginRight="230dp"
                 android:layout_marginBottom="20dp"
-                android:text="@string/profile_name"
+                android:text="@string/captain_planet"
                 app:layout_constraintBottom_toTopOf="@+id/imageView2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -81,13 +86,14 @@
                 android:layout_width="394dp"
                 android:layout_height="284dp"
                 android:layout_marginTop="8dp"
+                android:adjustViewBounds="true"
                 android:layout_marginBottom="8dp"
                 android:contentDescription="@string/post_image"
                 app:layout_constraintBottom_toTopOf="@+id/ratingBar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView"
-                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                android:background="@mipmap/clean" />
 
             <RatingBar
                 android:id="@+id/ratingBar"
@@ -109,17 +115,175 @@
                 android:id="@+id/textView3"
                 android:layout_width="390dp"
                 android:layout_height="84dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="5dp"
-                android:layout_marginRight="5dp"
-                android:text="@string/post_text"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_duis_pharetra_condimentum_mattis_nullam_nec_turpis_eget_nunc_efficitur_fermentum_nam_eget_odio_dolor"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
 
         </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="51dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/profile_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/cap" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="230dp"
+                android:layout_marginRight="230dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/captain_planet"
+                app:layout_constraintBottom_toTopOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="394dp"
+                android:layout_height="284dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/post_image"
+                app:layout_constraintBottom_toTopOf="@+id/ratingBar1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView1"
+                android:background="@mipmap/cean1" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                style="@style/ImageRatingBar"
+                android:adjustViewBounds="true"
+                android:layout_width="251dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginLeft="77dp"
+                android:layout_marginEnd="77dp"
+                android:layout_marginRight="77dp"
+                android:numStars="5"
+                android:rating="0"
+                app:layout_constraintBottom_toTopOf="@+id/textView6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="390dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/proin_sit_amet_diam_eu_felis_fermentum_tempus_ut_non_purus_in_vulputate_tortor_et_dolor_sollicitudin_quis_interdum_eros_efficitur_nullam_aliquam_mauris_vitae_enim_cursus_eu_laoreet_velit_egestas_donec_molestie_turpis_sit_amet_libero_iaculis_sagittis"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="51dp"
+                android:layout_height="48dp"
+                android:contentDescription="@string/profile_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/cap" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="230dp"
+                android:layout_marginRight="230dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/captain_planet"
+                app:layout_constraintBottom_toTopOf="@+id/imageView8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="394dp"
+                android:layout_height="284dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/post_image"
+                app:layout_constraintBottom_toTopOf="@+id/ratingBar2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                android:src="@mipmap/clean2" />
+
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                style="@style/ImageRatingBar"
+                android:layout_width="251dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginLeft="77dp"
+                android:layout_marginEnd="77dp"
+                android:layout_marginRight="77dp"
+                android:numStars="5"
+                android:rating="0"
+                app:layout_constraintBottom_toTopOf="@+id/textView9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="390dp"
+                android:layout_height="84dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/ut_consectetur_lorem_eget_orci_viverra_non_pellentesque_felis_eleifend_aenean_ultricies_finibus_purus_at_tristique_massa_fringilla_a_duis_eget_lectus_rhoncus_dictum_arcu_in_accumsan_mi_praesent_orci_nisi_aliquet_at_nisi_id_luctus_cursus_lectus"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar2" />
+
+        </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

@@ -9,15 +9,12 @@
     <string name="profile_image">Profile Image</string>
     <string name="post_image">Post Image</string>
     <string name="new_post">New Post</string>
-    <string name="profile">Profile</string>
     <string name="camera">Camera</string>
     <string name="post">Post</string>
     <string name="open_camera">Open Camera</string>
     <string name="your_tree">Your Tree</string>
     <string name="tree_display">Tree Display</string>
     <string name="_0">0</string>
-    <string name="leaves">Leaves</string>
-    <string name="profile">Profile</string>
     <string name="posts">Posts</string>
     <string name="leaves">Leaves</string>
     <string name="friends">Friends</string>
@@ -25,4 +22,14 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="button">Button</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="_1_234">1,234</string>
+    <string name="captain_planet">Captain Planet</string>
+    <string name="_15">15</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_duis_pharetra_condimentum_mattis_nullam_nec_turpis_eget_nunc_efficitur_fermentum_nam_eget_odio_dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra condimentum mattis. Nullam nec turpis eget nunc efficitur fermentum. Nam eget odio dolor.</string>
+    <string name="proin_sit_amet_diam_eu_felis_fermentum_tempus_ut_non_purus_in_vulputate_tortor_et_dolor_sollicitudin_quis_interdum_eros_efficitur_nullam_aliquam_mauris_vitae_enim_cursus_eu_laoreet_velit_egestas_donec_molestie_turpis_sit_amet_libero_iaculis_sagittis">Proin sit amet diam eu felis fermentum tempus ut non purus. In vulputate tortor et dolor sollicitudin, quis interdum eros efficitur. Nullam aliquam mauris vitae enim cursus, eu laoreet velit egestas. Donec molestie turpis sit amet libero iaculis sagittis.</string>
+    <string name="ut_consectetur_lorem_eget_orci_viverra_non_pellentesque_felis_eleifend_aenean_ultricies_finibus_purus_at_tristique_massa_fringilla_a_duis_eget_lectus_rhoncus_dictum_arcu_in_accumsan_mi_praesent_orci_nisi_aliquet_at_nisi_id_luctus_cursus_lectus">Ut consectetur lorem eget orci viverra, non pellentesque felis eleifend. Aenean ultricies finibus purus, at tristique massa fringilla a. Duis eget lectus rhoncus, dictum arcu in, accumsan mi. Praesent orci nisi, aliquet at nisi id, luctus cursus lectus.</string>
 </resources>
