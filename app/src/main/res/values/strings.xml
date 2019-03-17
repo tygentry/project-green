@@ -9,6 +9,20 @@
     <string name="profile_image">Profile Image</string>
     <string name="post_image">Post Image</string>
     <string name="new_post">New Post</string>
-    <string name="your_tree">Your Tree</string>
     <string name="profile">Profile</string>
+    <string name="camera">Camera</string>
+    <string name="post">Post</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="your_tree">Your Tree</string>
+    <string name="tree_display">Tree Display</string>
+    <string name="_0">0</string>
+    <string name="leaves">Leaves</string>
+    <string name="profile">Profile</string>
+    <string name="posts">Posts</string>
+    <string name="leaves">Leaves</string>
+    <string name="friends">Friends</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="button">Button</string>
 </resources>
